@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Clearison en_US\n"
+"POT-Creation-Date: 2014-06-26 15:25+0800\n"
+"PO-Revision-Date: 2014-06-26 15:29+0800\n"
+"Last-Translator: Dimpurr <dimpurr@live.com>\n"
+"Language-Team: DimWorks <dimpurr@live.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:19
+msgid "要和谐，不要吐槽~"
+msgstr "对不起，这里禁止评论"
+
+#: ../comments.php:29
+msgid "来一发吐槽"
+msgstr "增加评论"
+
+#: ../comments.php:30
+#, php-format
+msgid "吐槽 %s"
+msgstr "评论 %s"
+
+#: ../comments.php:31
+msgid "放弃治疗"
+msgstr "撤销评论"
+
+#: ../comments.php:32
+msgid "发射"
+msgstr "提交"
+
+#: ../comments.php:34
+msgid "Ctrl + Enter 快速发送"
+msgstr "Ctrl + Enter 快速发送"
+
+#: ../comments.php:39
+#, php-format
+msgid "你必须 <a href=\"%s\">登录</a> 后吐槽。"
+msgstr "你必须 <a href=\"%s\">登录</a> 后再回复。"
+
+#: ../comments.php:45
+#, php-format
+msgid ""
+"以 <a href=\"%1$s\">%2$s</a> 登录。 <a href=\"%3$s\" title=\"Log out of this "
+"account\">退出</a>"
+msgstr ""
+"以 <a href=\"%1$s\">%2$s</a> 登录。 <a href=\"%3$s\" title=\"Log out of this "
+"account\">退出</a>"
+
+#: ../comments.php:58
+msgid "称呼"
+msgstr "称呼"
+
+#: ../comments.php:62
+msgid "邮箱"
+msgstr "邮箱"
+
+#: ../comments.php:66
+msgid "站点"
+msgstr "站点"
+
+#: ../functions.php:13
+msgid "Main Nav"
+msgstr "主导航"
+
+#: ../functions.php:20
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: ../functions.php:114
+#, php-format
+msgid "页面 %s"
+msgstr "页面 %s"
+
+#: ../functions.php:163
+msgid "←"
+msgstr "←"
+
+#: ../functions.php:164
+msgid "→"
+msgstr "→"
+
+#: ../functions.php:214
+msgid "編輯"
+msgstr "编辑"
+
+#: ../functions.php:216
+msgid "回复"
+msgstr "回复"
+
+#: ../functions.php:222
+msgid "审核中"
+msgstr "审核中"
+
+#: ../functions.php:236 ../functions.php:237
+msgid "Adagiio Config"
+msgstr "Adagiio 设置"
+
+#: ../functions.php:249
+msgid "主题设置"
+msgstr "主题设置"
+
+#: ../functions.php:256
+msgid "贴入统计工具提供的网站统计代码"
+msgstr "输入网站统计代码，可适当加入字符"
+
+#: ../functions.php:259
+msgid "保存设置"
+msgstr "保存设置"
+
+#: ../index.php:28 ../single.php:24
+msgid "无回复"
+msgstr "无回复"
+
+#: ../index.php:28 ../single.php:24
+msgid "落单的回复"
+msgstr "单条回复"
+
+#: ../index.php:28 ../single.php:24
+msgid "% 回复"
+msgstr "% 回复"
+
+#: ../index.php:29 ../single.php:25
+msgid "编辑"
+msgstr "编辑"
+
+#~ msgid "&larr; 更旧的吐槽"
+#~ msgstr "&larr; 更旧的评论"
+
+#~ msgid "更新的吐槽 &rarr;"
+#~ msgstr "更新的评论 &rarr;"
+
+#~ msgid "前"
+#~ msgstr "前"
+
+#~ msgid "出品"
+#~ msgstr "撰写"
+
+#~ msgid "木有吐槽"
+#~ msgstr "无回复"
+
+#~ msgid "落单的吐槽"
+#~ msgstr "单条回复"
+
+#~ msgid "%发吐槽"
+#~ msgstr "%条回复"
+
+#~ msgid "调教文章"
+#~ msgstr "编辑文章"
+
+#~ msgid "Clearision 调教"
+#~ msgstr "Clearision 设置"
+
+#~ msgid "主菜单"
+#~ msgstr "主菜单"
+
+#~ msgid "辅助链接"
+#~ msgstr "辅助链接"
+
+#~ msgid "底部栏1"
+#~ msgstr "底部栏1"
+
+#~ msgid "底部栏2"
+#~ msgstr "底部栏2"
+
+#~ msgid "上一页"
+#~ msgstr "上一页"
+
+#~ msgid "下一页"
+#~ msgstr "下一页"
+
+#~ msgid "文章作者"
+#~ msgstr "文章作者"
+
+#~ msgid "你的评论正在等待和谐审查"
+#~ msgstr "你的评论正在等待审核"
+
+#~ msgid "模版样式："
+#~ msgstr "模版样式："
+
+#~ msgid "灰色素雅"
+#~ msgstr "灰色素雅"
+
+#~ msgid "透明清新"
+#~ msgstr "透明清新"
+
+#~ msgid "透明样式下的页面背景，留空为默认。粘贴链接或点击上传"
+#~ msgstr "透明样式下的页面背景，留空为默认。粘贴链接或点击上传"
+
+#~ msgid "上传"
+#~ msgstr "上传"
+
+#~ msgid "LOGO头像："
+#~ msgstr "LOGO头像："
+
+#~ msgid "粘贴链接或点击上传"
+#~ msgstr "粘贴链接或点击上传"
+
+#~ msgid "网站图标："
+#~ msgstr "网站图标："
+
+#~ msgid "输入 ICO/PNG 图标链接，留空调用根目录 favicon.ico"
+#~ msgstr "输入 ICO/PNG 图标链接，留空调用根目录 favicon.ico"
+
+#~ msgid "统计代码："
+#~ msgstr "统计代码："
+
+#~ msgid "访客环境："
+#~ msgstr "访客环境："
+
+#~ msgid "显示"
+#~ msgstr "显示"
+
+#~ msgid "不显示"
+#~ msgstr "不显示"
+
+#~ msgid "文章作者："
+#~ msgstr "文章作者："
+
+#~ msgid "社交图标"
+#~ msgstr "社交图标"
+
+#~ msgid "友情链接："
+#~ msgstr "友情链接："
+
+#~ msgid "在这里使用 HTML 代码自定义友链区的内容"
+#~ msgstr "在这里使用 HTML 代码自定义友链区的内容"
+
+#~ msgid "提交更改："
+#~ msgstr "提交更改："
+
+#~ msgid "保存全部设置"
+#~ msgstr "保存全部设置"
+
+#~ msgid "什么都没有找到"
+#~ msgstr "找不到内容"
+
+#~ msgid "哎呀，你要找的东西好像被贝爷吃掉了……"
+#~ msgstr "对不起，没有找到相关的内容，请重试"
+
+#~ msgid "友情链接"
+#~ msgstr "友情链接"
+
+#~ msgid "默认值："
+#~ msgstr "默认值："
+
+#~ msgid "当前状态："
+#~ msgstr "当前状态："
+
+#~ msgid "放弃吐槽"
+#~ msgstr "放弃评论"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"

@@ -1,0 +1,52 @@
+/* Header */
+html,body{
+	margin:0;
+	width: 100%;
+	background: #333;
+	background-image: url('../img/login-bg.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: block;
+    -webkit-text-size-adjust: 100%;
+    color: aliceblue;
+}
+
+#login-body{
+    height: inherit;
+}
+
+h1 a{
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #999;
+    height: 100px;
+    border-radius:55px;
+    padding: 10px;
+    background-color: #c17d7d;
+}
+
+#login{
+    background-color:transparent;
+}
+
+#loginform,#registerform{
+    background-color:rgba(180, 174, 212, 0.3);
+    color: aliceblue;
+}
+
+p{
+	background-color:transparent;
+}
+
+.login label,.login #backtoblog a, .login #nav a{
+    color: aliceblue;
+}
+
+.login .message{
+	background-color:rgba(180, 174, 212, 0.3);
+}
+
+
+
