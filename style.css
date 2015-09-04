@@ -4,14 +4,10 @@ Theme URI:http://www.coolecho.net/?p=414
 Author:Cononico
 Author URI:http://coolecho.net
 Description:Time axis Theme niconiconi
-Version:1.1.1
+Version:1.1.2
 Tags:Cononico,niconiconi,Time axis
 Text Domain:niconiconi
 */
-
-/* Reset */
-
-@import url('/src/reset.css');
 
 /* Common */
 
@@ -397,6 +393,36 @@ body{
     margin-top: -12px;
 }
 
+.artic_li:nth-child(1n+0) .time_img .cd-icon-movie{
+    display: none;
+}
+
+.artic_li:nth-child(1n+0) .time_img .cd-icon-location{
+    display: none;
+}
+
+
+.artic_li:nth-child(2n+0) .time_img .cd-icon-picture{
+    display: none;
+}
+
+.artic_li:nth-child(2n+0) .time_img .cd-icon-movie{
+    display: block;
+}
+
+.artic_li:nth-child(3n+0) .time_img .cd-icon-picture{
+    display: none;
+}
+
+.artic_li:nth-child(3n+0) .time_img .cd-icon-movie{
+    display: none;
+}
+
+.artic_li:nth-child(3n+0) .time_img .cd-icon-location{
+    display: block;
+}
+
+
 .art_cont{
     position: relative;
     margin-left: 0;
@@ -772,13 +798,14 @@ body{
 .single .sp_c{
     padding: 2em 0;
     line-height: 2em;
-	font-size:20px;
-	etter-spacing:1em;
+    font-size:18px;
+    color: #444;
 }
 
 .single .sp_c div{
 	margin:0 auto;
 }
+
 
 .single .sp_c p,h1,h2,h3,h4,h5,h6{
     margin: 1em 0;
@@ -786,8 +813,22 @@ body{
 
 .single .sp_c .wp-caption-text{
     text-align: center;
-    color: aquamarine;
+    color:cadetblue;
 }
+
+.single .sp_c a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.single .sp_c a:hover{
+    color: darkblue;
+}
+
+.single .sp_c a:visited{
+    color: dimgrey;
+}
+
 
 .single .post_nav{
     padding-top: 20px;
@@ -1034,7 +1075,8 @@ body{
 }
 
 #cmt input {
-	margin: 6px 10px 6px 0;
+    margin: 6px 10px 6px 0;
+    width: 80%;
 }
 
 #cmt #comment {
@@ -1229,5 +1271,18 @@ body{
     
     #hcontent .nav_logo_left .nav_title_left{
         margin: 5px 0;
+    }
+
+    #cmt_form_meta{
+        clear: both;
+        width: 80%;
+    }
+
+    #cmt input{
+        width: 80%;
+    }
+    
+    #cmt #comment {
+         width: calc(100% - 20%);
     }
 }

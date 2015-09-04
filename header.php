@@ -4,8 +4,8 @@
 <head>
 
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/shake.css">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

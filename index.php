@@ -8,7 +8,9 @@
 <li class="artic_li clearfix"><article class="p_a<?php if ( !has_post_thumbnail() ) { echo ' p_lt'; };?>">
 
 <div class="time_img">
-    <img src="<?php bloginfo('template_url');?>/img/cd-icon-picture.svg">
+    <img class="cd-icon-picture" src="<?php bloginfo('template_url');?>/img/cd-icon-picture.svg">
+    <img class="cd-icon-movie" src="<?php bloginfo('template_url');?>/img/cd-icon-movie.svg">
+    <img class="cd-icon-location" src="<?php bloginfo('template_url');?>/img/cd-icon-location.svg">
 </div>
     
 <div class="art_cont">

@@ -35,18 +35,8 @@ function scroll_top(){
 	return scrollPos;
 }
 
-function scroll_nav() {
-	var nav = document.getElementById("nav");
-	if (scroll_top() > 180) {
-		nav.className = "nav_s";
-	} else {
-		nav.className = "";
-	}
-}
-
 document.onkeydown = cmt_submit;
 window.onload = dpt_code;
-window.onscroll = scroll_nav;
 
-console.log('Theme Kapok by Cononico')
+console.log('Theme niconiconi by Cononico')
 console.log('http://coolecho.net')

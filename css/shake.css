@@ -1,0 +1,108 @@
+.time_div h1,.artic_li:nth-child(even) .author_div a,.artic_li:nth-child(even) .comment_div a{
+    animation-name:sharkit;
+    animation-duration:0.2s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+.artic_li:nth-child(even) .reply_div a{
+    animation-name:backsharkit;
+    animation-duration:0.2s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*sharkit    */
+@keyframes sharkit{
+    from {
+		-webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+     }
+    to {
+		-webkit-transform:rotate(-5deg);
+        -moz-transform:rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+    }
+}
+
+/*backsharkit*/
+
+@keyframes backsharkit{
+    from {
+		-webkit-transform:rotate(-5deg);
+        -moz-transform:rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+     }
+    to {
+		-webkit-transform:rotate(5deg);
+        -moz-transform:rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+    }
+}
+
+
+.artic_li:nth-child(even) .img_div img:hover{
+    animation-name:sharkit;
+    animation-duration:0.4s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.artic_li:nth-child(odd) .comment_div a{
+    animation-name:psharkit;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.artic_li:nth-child(odd) .author_div a,.artic_li:nth-child(odd) .reply_div a{
+     animation-name:pbacksharkit;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*psharkit*/
+
+@keyframes psharkit{
+      from {
+		-webkit-transform:rotate(8deg);
+        -moz-transform:rotate(8deg);
+        -ms-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+     }
+    to {
+		-webkit-transform:rotate(-8deg);
+        -moz-transform:rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+    }
+}
+
+/*pbacksharkit*/
+
+@keyframes pbacksharkit{
+    from {
+		-webkit-transform:rotate(-8deg);
+        -moz-transform:rotate(-8deg);
+        -ms-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+     }
+    to {
+		-webkit-transform:rotate(8deg);
+        -moz-transform:rotate(8deg);
+        -ms-transform: rotate(8deg);
+        -o-transform: rotate(8deg);
+    }	
+}

@@ -21,6 +21,6 @@
 </footer>
 
 </section>
-<script src="<?php bloginfo('template_url');?>/js/demo-2.js" type="text/javascript"></script>
+<script src="<?php bloginfo('template_url');?>/js/bubble.js" type="text/javascript"></script>
 </body>
 </html>
